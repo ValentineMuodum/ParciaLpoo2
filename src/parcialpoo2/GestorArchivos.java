@@ -17,7 +17,7 @@ import java.util.Scanner;
 public class GestorArchivos {
     private PrintStream a;
     private File f;
-    private Scanner s;
+    private Scanner sc;
 
     public GestorArchivos(File f) throws FileNotFoundException {
         this.f = f;
@@ -25,6 +25,8 @@ public class GestorArchivos {
         s=new Scanner (f);
     }
  public void leer(Starter s){
-     if()
+     if(s.getPersonas().containsKey(sc.nextLine())==false){
+         s.getPersonas().put(key, value)//compoara y asigna el nombre
+     }
  }   
 }
